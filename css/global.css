@@ -14,6 +14,7 @@ html {
 body {
     font-family: "Figtree", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
+    background-color: var(--color-black);
     overflow-x: hidden;
 }
 
@@ -34,11 +35,60 @@ h6 {
     overflow-wrap: break-word;
 }
 
+main {
+    width: 100%;
+    padding: 24px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+
+.grid {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    gap: 12px;
+}
+
+.grid-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.grid-col-item {
+    width: 100%;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    transform: scale(0.6);
+    opacity: 0;
+}
+
+.grid-col-item.show-item {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.grid-col-item img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    background-color: #141414;
+}
 
 
 /* Tablets */
-@media screen and (max-width: 768px) {}
+@media screen and (min-width: 768px) {
+    main {
+        padding: 32px;
+    }
+}
 
 /* Desktops + */
-@media screen and (max-width: 1024px) {}
+@media screen and (min-width: 1024px) {
+    main {
+        padding: 48px;
+    }
+}
