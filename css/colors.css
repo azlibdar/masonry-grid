@@ -1,0 +1,46 @@
+:root {
+    /* Base */
+    --color-black: #000000;
+    --color-white: #ffffff;
+
+    /* Grays */
+    --color-gray-950: #1c1c1e;
+    --color-gray-900: #2c2c2e;
+    --color-gray-800: #3a3a3c;
+    --color-gray-700: #48484a;
+    --color-gray-600: #636366;
+    --color-gray-500: #8e8e93;
+    --color-gray-400: #aeaeb2;
+    --color-gray-300: #c7c7cc;
+    --color-gray-200: #d1d1d6;
+    --color-gray-100: #e5e5ea;
+    --color-gray-50: #f2f2f7;
+
+    /* Red */
+    --color-red-on-light: #ff3b30;
+    --color-red-on-dark: #ff453a;
+
+    /* Orange */
+    --color-orange-on-light: #ff9500;
+    --color-orange-on-dark: #ff9f0a;
+
+    /* Yellow */
+    --color-yellow-on-light: #ffcc00;
+    --color-yellow-on-dark: #ffd60a;
+
+    /* Green */
+    --color-green-on-light: #34c759;
+    --color-green-on-dark: #30d158;
+
+    /* Blue */
+    --color-blue-on-light: #007aff;
+    --color-blue-on-dark: #0a84ff;
+
+    /* Pink */
+    --color-pink-on-light: #ff2d55;
+    --color-pink-on-dark: #ff375f;
+
+    /* Brown */
+    --color-brown-on-light: #a2845e;
+    --color-brown-on-dark: #ac8e68;
+}
