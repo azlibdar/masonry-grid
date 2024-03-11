@@ -75,7 +75,7 @@ main {
     width: 100%;
     max-width: 100%;
     height: auto;
-    background-color: #141414;
+    background-color: var(--color-gray-950);
 }
 
 
